@@ -3,5 +3,5 @@
 source "https://rubygems.org"
 
 gem "logger"
-gem "jekyll"
-#gem "github-pages"
+#gem "jekyll"
+gem "github-pages"

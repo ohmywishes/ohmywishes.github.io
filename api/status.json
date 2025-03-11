@@ -1,5 +1,21 @@
 {
-  "isActive": true,
-  "color": "#f0f0f0",
-  "message": "test"
+  "isEnabled": true,
+  "platforms": {
+    "all": {
+      "versions": {
+        "all": {
+          "color": "",
+          "message": "Сообщение для всех приложений"
+        }
+      }
+    },
+    "android": {
+      "versions": {
+        "all": {
+          "color": "",
+          "message": "Сообщение для всех версий android приложений"
+        }
+      }
+    }
+  }
 }

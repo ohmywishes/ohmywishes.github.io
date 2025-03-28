@@ -25,6 +25,18 @@
           ]
         }
       ]
+    },
+    {
+      "name": "ios",
+      "versions": [
+        {
+          "name": "all",
+          "color": "",
+          "message": [
+            { "lang": "default", "text": "Сообщение для всех версий iOS приложений" }
+          ]
+        }
+      ]
     }
   ]
 }

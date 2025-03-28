@@ -1,26 +1,30 @@
 {
   "isEnabled": true,
-  "platforms": {
-    "all": {
-      "versions": {
-        "all": {
+  "platforms": [
+    {
+      "name": "all",
+      "versions": [
+        {
+          "name": "all",
           "color": "",
-          "message": {
-            "default": "Сообщение для всех приложений",
-            "ru": "Сообщение для всех приложений"
-          }
+          "message": [
+            { "lang": "default", "text": "Сообщение для всех приложений" },
+            { "lang": "ru", "text": "Сообщение для всех приложений" }
+          ]
         }
-      }
+      ]
     },
-    "android": {
-      "versions": {
-        "all": {
+    {
+      "name": "android",
+      "versions": [
+        {
+          "name": "all",
           "color": "",
-          "message": {
-            "default": "Сообщение для всех версий android приложений"
-          }
+          "message": [
+            { "lang": "default", "text": "Сообщение для всех версий android приложений" }
+          ]
         }
-      }
+      ]
     }
-  }
+  ]
 }

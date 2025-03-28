@@ -33,7 +33,8 @@
           "name": "all",
           "color": "",
           "message": [
-            { "lang": "default", "text": "Сообщение для всех версий iOS приложений" }
+            { "lang": "default", "text": "Сообщение для всех версий iOS приложений" },
+            { "lang": "en", "text": "Message for all iOS app versions" }
           ]
         }
       ]

@@ -36,7 +36,7 @@
           "color": "#F3463B",
           "icon": "https://static.ohmywishes.com/status/error.svg",
           "message": [
-            { "lang": "default", "text": "We're really sorry, but the service is temporarily unavailable. We're already working on a fix and will be back soon!" },
+            { "lang": "default", "text": "Нам очень жаль, но сервис временно недоступен. Мы уже работаем над решением проблемы и скоро всё исправим!" },
             { "lang": "en", "text": "We're really sorry, but the service is temporarily unavailable. We're already working on a fix and will be back soon!" }
           ]
         }

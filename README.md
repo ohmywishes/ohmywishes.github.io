@@ -22,6 +22,7 @@
         {
           "name": "all", // all, номер версии
           "color": "#F3463B",
+          "messageColor": "#FFFFFF",
           "icon": "https://static.ohmywishes.com/status/warning.svg",
           "message": [
             { 
@@ -41,6 +42,7 @@
         {
           "name": "all", // all, номер версии
           "color": "#F3463B",
+          "messageColor": "#FFFFFF",
           "icon": "https://static.ohmywishes.com/status/success.svg",
           "message": [
             { 
@@ -57,6 +59,7 @@
         {
           "name": "all", // all, номер версии
           "color": "#F3463B",
+          "messageColor": "#FFFFFF",
           "icon": "https://static.ohmywishes.com/status/error.svg",
           "message": [
             {  
@@ -83,6 +86,7 @@
   * `platforms.versions` – список версий приложения на конкретной платформе, на которых показать сообщение
     * `platforms.versions.name` – для `web` возможно только `all`, для остальных может содержать номер версии
     * `platforms.versions.color` – цвет фона панели с уведомлением
+    * `platforms.versions.messageColor` – цвет текста, который отображается на панели уведомления
     * `platforms.versions.icon` – иконка для панели уведомления, доступные варианты на текущий момент:
       * `https://static.ohmywishes.com/status/error.svg` – всё совсем плохо
       * `https://static.ohmywishes.com/status/warning.svg` – что-то может не работать

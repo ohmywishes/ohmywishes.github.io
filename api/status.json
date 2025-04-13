@@ -2,10 +2,10 @@
   "isEnabled": true,
   "platforms": [
     {
-      "name": "all",
+      "platform": "all",
       "versions": [
         {
-          "name": "all",
+          "version": "all",
           "color": "#F3463B",
           "messageColor": "#FFFFFF",
           "icon": "https://static.ohmywishes.com/status/warning.svg",
@@ -17,10 +17,10 @@
       ]
     },
     {
-      "name": "android",
+      "platform": "android",
       "versions": [
         {
-          "name": "all",
+          "version": "all",
           "color": "#F3463B",
           "messageColor": "#FFFFFF",
           "icon": "https://static.ohmywishes.com/status/success.svg",
@@ -31,10 +31,39 @@
       ]
     },
     {
-      "name": "ios",
+      "platform": "android",
       "versions": [
         {
-          "name": "all",
+          "version": "<=1.5.0",
+          "color": "#F3463B",
+          "messageColor": "#FFFFFF",
+          "icon": "https://static.ohmywishes.com/status/success.svg",
+          "message": [
+            { "lang": "default", "text": "Нам очень жаль, но сервис временно недоступен. Мы уже работаем над решением проблемы и скоро всё исправим!" }
+          ]
+        }
+      ]
+    },
+    {
+      "platform": "ios",
+      "versions": [
+        {
+          "version": "all",
+          "color": "#F3463B",
+          "messageColor": "#FFFFFF",
+          "icon": "https://static.ohmywishes.com/status/error.svg",
+          "message": [
+            { "lang": "default", "text": "Нам очень жаль, но сервис временно недоступен. Мы уже работаем над решением проблемы и скоро всё исправим!" },
+            { "lang": "en", "text": "We're really sorry, but the service is temporarily unavailable. We're already working on a fix and will be back soon!" }
+          ]
+        }
+      ]
+    },
+    {
+      "platform": "ios",
+      "versions": [
+        {
+          "version": ">1.5.0",
           "color": "#F3463B",
           "messageColor": "#FFFFFF",
           "icon": "https://static.ohmywishes.com/status/error.svg",

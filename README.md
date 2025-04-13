@@ -17,10 +17,10 @@
   "isEnabled": true, // true, false
   "platforms": [
     {
-      "name": "all", // ios, android, web
+      "platform": "all", // ios, android, web
       "versions": [
         {
-          "name": "all", // all, номер версии
+          "version": "all", // all, номер версии
           "color": "#F3463B",
           "messageColor": "#FFFFFF",
           "icon": "https://static.ohmywishes.com/status/warning.svg",
@@ -37,10 +37,10 @@
       ]
     },
     {
-      "name": "android", // ios, android, web
+      "platform": "android", // ios, android, web
       "versions": [
         {
-          "name": "all", // all, номер версии
+          "version": "all", // all, номер версии
           "color": "#F3463B",
           "messageColor": "#FFFFFF",
           "icon": "https://static.ohmywishes.com/status/success.svg",
@@ -54,10 +54,31 @@
       ]
     },
     {
-      "name": "ios", // ios, android, web
+      "platform": "ios", // ios, android, web
       "versions": [
         {
-          "name": "all", // all, номер версии
+          "version": "all", // all, номер версии
+          "color": "#F3463B",
+          "messageColor": "#FFFFFF",
+          "icon": "https://static.ohmywishes.com/status/error.svg",
+          "message": [
+            {  
+              "lang": "default", 
+              "text": "We're really sorry, but the service is temporarily unavailable. We're already working on a fix and will be back soon!"
+            },
+            { 
+              "lang": "en", 
+              "text": "We're really sorry, but the service is temporarily unavailable. We're already working on a fix and will be back soon!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "platform": "ios", // ios, android, web
+      "versions": [
+        {
+          "version": ">1.5.0", // all, номер версии, не ниже определенной версии
           "color": "#F3463B",
           "messageColor": "#FFFFFF",
           "icon": "https://static.ohmywishes.com/status/error.svg",
@@ -84,7 +105,7 @@
 * `isEnabled` – показывать или нет сообщение в приложениях (ios, android, web). Если `false`, остальная структура файла игнорируется
 * `platforms` – список платформ, на которых нужно показать сообщение
   * `platforms.versions` – список версий приложения на конкретной платформе, на которых показать сообщение
-    * `platforms.versions.name` – для `web` возможно только `all`, для остальных может содержать номер версии
+    * `platforms.versions.version` – описание в разделе ниже
     * `platforms.versions.color` – цвет фона панели с уведомлением
     * `platforms.versions.messageColor` – цвет текста, который отображается на панели уведомления
     * `platforms.versions.icon` – иконка для панели уведомления, доступные варианты на текущий момент:
@@ -92,3 +113,20 @@
       * `https://static.ohmywishes.com/status/warning.svg` – что-то может не работать
       * `https://static.ohmywishes.com/status/success.svg` – всё хорошо или что-то было решено и снова работает штатно
     * `platforms.versions.message` – список текстов сообщений на разных языках
+
+#### Синтаксис поля version
+
+Поле может содержать следующие значения:
+* `all` – любые версии. Для платформы `web` возможно только это значение
+* `(модификатор)(номер версии)` – модификатор указывать необязательно. Возможные варианты модификатора:
+  * `<` – для всех версий ниже указанной
+  * `<=` – для всех версий ниже указанной, а так же для указанной версии
+  * `>` – для всех версий выше указанной
+  * `>=` – для всех версий выше указанной, а так же для указанной версии
+
+Примеры значений:
+* `1.0.10` – только для версии `1.0.10`
+* `<1.0.10` – для версий `1.0.9, 1.0.8, ...`
+* `<=1.0.10` – для версий `1.0.10, 1.0.9, 1.0.8, ...`
+* `>1.0.10` – для версий `1.0.11, ..., 1.1.0, ...`
+* `>=1.0.10` – для версий `1.0.10, 1.0.11, ..., 1.1.0, ...`

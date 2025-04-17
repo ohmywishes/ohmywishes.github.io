@@ -2,21 +2,6 @@
   "isEnabled": true,
   "platforms": [
     {
-      "platform": "all",
-      "versions": [
-        {
-          "version": "all",
-          "color": "#F3463B",
-          "messageColor": "#FFFFFF",
-          "icon": "https://static.ohmywishes.com/status/warning.svg",
-          "message": [
-            { "lang": "default", "text": "Нам очень жаль, но сервис временно недоступен. Мы уже работаем над решением проблемы и скоро всё исправим!" },
-            { "lang": "ru", "text": "Нам очень жаль, но сервис временно недоступен. Мы уже работаем над решением проблемы и скоро всё исправим!" }
-          ]
-        }
-      ]
-    },
-    {
       "platform": "android",
       "versions": [
         {
@@ -40,21 +25,6 @@
           "icon": "https://static.ohmywishes.com/status/success.svg",
           "message": [
             { "lang": "default", "text": "Нам очень жаль, но сервис временно недоступен. Мы уже работаем над решением проблемы и скоро всё исправим!" }
-          ]
-        }
-      ]
-    },
-    {
-      "platform": "ios",
-      "versions": [
-        {
-          "version": "all",
-          "color": "#F3463B",
-          "messageColor": "#FFFFFF",
-          "icon": "https://static.ohmywishes.com/status/error.svg",
-          "message": [
-            { "lang": "default", "text": "Нам очень жаль, но сервис временно недоступен. Мы уже работаем над решением проблемы и скоро всё исправим!" },
-            { "lang": "en", "text": "We're really sorry, but the service is temporarily unavailable. We're already working on a fix and will be back soon!" }
           ]
         }
       ]

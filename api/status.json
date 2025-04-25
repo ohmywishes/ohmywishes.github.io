@@ -1,5 +1,5 @@
 {
-  "isEnabled": true,
+  "isEnabled": false,
   "platforms": [
     {
       "platform": "android",
@@ -9,20 +9,6 @@
           "color": "#F3463B",
           "messageColor": "#FFFFFF",
           "icon": "https://static.ohmywishes.com/status/warning.svg",
-          "message": [
-            { "lang": "default", "text": "Нам очень жаль, но сервис временно недоступен. Мы уже работаем над решением проблемы и скоро всё исправим!" }
-          ]
-        }
-      ]
-    },
-    {
-      "platform": "android",
-      "versions": [
-        {
-          "version": "<=1.5.0",
-          "color": "#F3463B",
-          "messageColor": "#FFFFFF",
-          "icon": "https://static.ohmywishes.com/status/success.svg",
           "message": [
             { "lang": "default", "text": "Нам очень жаль, но сервис временно недоступен. Мы уже работаем над решением проблемы и скоро всё исправим!" }
           ]

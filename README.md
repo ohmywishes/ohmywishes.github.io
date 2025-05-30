@@ -23,7 +23,7 @@
           "version": "all", // all, номер версии
           "color": "#F3463B",
           "messageColor": "#FFFFFF",
-          "icon": "https://static.ohmywishes.com/status/warning.svg",
+          "icon": "https://status.ohmywishes.com/images/warning.svg",
           "message": [
             { 
               "lang": "default", // default, ISO 639-1 код языка (2 символа в нижнем регистре)
@@ -43,7 +43,7 @@
           "version": "all", // all, номер версии
           "color": "#F3463B",
           "messageColor": "#FFFFFF",
-          "icon": "https://static.ohmywishes.com/status/success.svg",
+          "icon": "https://status.ohmywishes.com/images/success.svg",
           "message": [
             { 
               "lang": "default", 
@@ -60,7 +60,7 @@
           "version": "all", // all, номер версии
           "color": "#F3463B",
           "messageColor": "#FFFFFF",
-          "icon": "https://static.ohmywishes.com/status/error.svg",
+          "icon": "https://status.ohmywishes.com/images/error.svg",
           "message": [
             {  
               "lang": "default", 
@@ -81,7 +81,7 @@
           "version": ">1.5.0", // all, номер версии, не ниже определенной версии
           "color": "#F3463B",
           "messageColor": "#FFFFFF",
-          "icon": "https://static.ohmywishes.com/status/error.svg",
+          "icon": "https://status.ohmywishes.com/images/error.svg",
           "message": [
             {  
               "lang": "default", 
@@ -109,9 +109,9 @@
     * `platforms.versions.color` – цвет фона панели с уведомлением
     * `platforms.versions.messageColor` – цвет текста, который отображается на панели уведомления
     * `platforms.versions.icon` – иконка для панели уведомления, доступные варианты на текущий момент:
-      * `https://static.ohmywishes.com/status/error.svg` – всё совсем плохо
-      * `https://static.ohmywishes.com/status/warning.svg` – что-то может не работать
-      * `https://static.ohmywishes.com/status/success.svg` – всё хорошо или что-то было решено и снова работает штатно
+      * `https://status.ohmywishes.com/images/error.svg` – всё совсем плохо
+      * `https://status.ohmywishes.com/images/warning.svg` – что-то может не работать
+      * `https://status.ohmywishes.com/images/success.svg` – всё хорошо или что-то было решено и снова работает штатно
     * `platforms.versions.message` – список текстов сообщений на разных языках
 
 #### Синтаксис поля version

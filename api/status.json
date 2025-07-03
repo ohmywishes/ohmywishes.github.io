@@ -1,14 +1,14 @@
 {
-  "isEnabled": false,
+  "isEnabled": true,
   "platforms": [
     {
-      "platform": "all",
+      "platform": "web",
       "versions": [
         {
           "version": "all",
-          "color": "#F3463B",
+          "color": "#FD937E",
           "messageColor": "#FFFFFF",
-          "icon": "https://status.ohmywishes.com/images/warning.svg",
+          "icon": "https://status.ohmywishes.com/images/error.svg",
           "message": [
             { "lang": "ru", "text": "Наблюдаются временные ограничения в работе приложения из-за технических работ у провайдера нашего хостинга. Мы уже решаем проблему." },
             { "lang": "en", "text": "We are facing temporary service outage due to hosting issues. We are aware of the issue and we are working on it." }

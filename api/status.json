@@ -2,7 +2,7 @@
   "isEnabled": true,
   "platforms": [
     {
-      "platform": "all",
+      "platform": "web",
       "versions": [
         {
           "version": "all",

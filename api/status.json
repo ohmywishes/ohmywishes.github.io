@@ -1,17 +1,17 @@
 {
-  "isEnabled": false,
+  "isEnabled": true,
   "platforms": [
     {
-      "platform": "web",
+      "platform": "android",
       "versions": [
         {
-          "version": "all",
-          "color": "#F3463B",
+          "version": "<3.10",
+          "color": "#f3A93B",
           "messageColor": "#FFFFFF",
           "icon": "https://status.ohmywishes.com/images/warning.svg",
           "message": [
-            { "lang": "ru", "text": "Наблюдаются временные ограничения в работе приложения из-за технических работ у провайдера нашего хостинга. Мы уже решаем проблему." },
-            { "lang": "en", "text": "We are facing temporary service outage due to hosting issues. We are aware of the issue and we are working on it." }
+            { "lang": "ru", "text": "Обновите версию приложения, чтобы воспользоваться классными новыми функциями." },
+            { "lang": "en", "text": "Update the app to take advantage of cool new features." }
           ]
         }
       ]

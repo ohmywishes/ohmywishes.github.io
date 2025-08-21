@@ -8,7 +8,7 @@
           "version": "<3.10",
           "color": "#f3A93B",
           "messageColor": "#FFFFFF",
-          "icon": "https://status.ohmywishes.com/images/warning.svg",
+          "icon": "https://status.ohmywishes.com/images/error.svg",
           "message": [
             { "lang": "ru", "text": "Обновите версию приложения, чтобы воспользоваться классными новыми функциями." },
             { "lang": "en", "text": "Update the app to take advantage of cool new features." }

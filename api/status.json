@@ -10,9 +10,8 @@
           "messageColor": "#FFFFFF",
           "icon": "https://status.ohmywishes.com/images/warning.svg",
           "message": [
-            { "lang": "default", "text": "Наблюдаются временные ограничения в работе сервиса подтверждения телефонного номера. Мы уже решаем проблему." },
-            { "lang": "ru", "text": "Наблюдаются временные ограничения в работе сервиса подтверждения телефонного номера. Мы уже решаем проблему." },
-            { "lang": "en", "text": "We are facing temporary phone verification service outage due to provider issues. We are aware of the issue and we are working on it." }
+            { "lang": "default", "text": "We are facing temporary phone verification service outage due to provider issues. We are aware of the issue and we are working on it." },
+            { "lang": "ru", "text": "Наблюдаются временные ограничения в работе сервиса подтверждения телефонного номера. Мы уже решаем проблему." }
           ]
         }
       ]

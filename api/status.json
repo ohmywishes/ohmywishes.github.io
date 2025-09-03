@@ -1,5 +1,5 @@
 {
-  "isEnabled": false,
+  "isEnabled": true,
   "platforms": [
     {
       "platform": "all",
@@ -10,8 +10,8 @@
           "messageColor": "#FFFFFF",
           "icon": "https://status.ohmywishes.com/images/warning.svg",
           "message": [
-            { "lang": "default", "text": "We are facing temporary service outage due to hosting issues. We are aware of the issue and we are working on it." },
-            { "lang": "ru", "text": "Наблюдаются временные ограничения в работе приложения из-за технических работ у провайдера нашего хостинга. Мы уже решаем проблему." }
+            { "lang": "default", "text": "We are facing temporary service outage due to image hosting issues. We are aware of the issue and we are working on it." },
+            { "lang": "ru", "text": "Наблюдаются временные ограничения в работе приложения из-за технических работ у провайдера нашего хостинга изображений. Мы уже решаем проблему." }
           ]
         }
       ]

@@ -1,8 +1,8 @@
 {
-  "isEnabled": false,
+  "isEnabled": true,
   "platforms": [
     {
-      "platform": "ios, android, web",
+      "platform": "all",
       "versions": [
         {
           "version": "all",

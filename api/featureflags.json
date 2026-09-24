@@ -1,3 +1,4 @@
 {
-  "telegramOAuthFallback": true
+  "telegramOAuthFallback": true,
+  "subscriptionPurchase": false
 }

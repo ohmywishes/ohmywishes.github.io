@@ -6,8 +6,8 @@
       "versions": [
         {
           "version": "all",
-          "color": "#FFC107",
-          "messageColor": "#1F1F1F",
+          "color": "#D97706",
+          "messageColor": "#FFFFFF",
           "icon": "https://status.ohmywishes.com/images/warning.svg",
           "message": [
             { "lang": "ru", "text": "После последнего обновления изображения в вишлистах могут отображаться некорректно. Мы знаем о проблеме и уже работаем над исправлением." },

@@ -10,7 +10,7 @@
           "messageColor": "#FFFFFF",
           "icon": "https://status.ohmywishes.com/images/warning.svg",
           "message": [
-            { "lang": "ru", "text": "После последнего обновления изображения в вишлистах могут отображаться некорректно. Мы знаем о проблеме и уже работаем над исправлением." },
+            { "lang": "ru", "text": "В новой версии приложения изображения в вишлистах могут отображаться некорректно. Мы знаем о проблеме и уже работаем над исправлением." },
             { "lang": "default", "text": "Since the latest update, images in wishlists may not display correctly. We're aware of the issue and are already working on a fix." }
           ]
         }

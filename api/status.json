@@ -10,7 +10,7 @@
           "messageColor": "#FFFFFF",
           "icon": "https://status.ohmywishes.com/images/warning.svg",
           "message": [
-            { "lang": "ru", "text": "Наблюдаются временные проблемы с получением одноразовых кодов для входа по электронной почте. Мы работаем над устранением." },
+            { "lang": "ru", "text": "Наблюдаются временные проблемы с получением одноразовых кодов для входа по электронной почте. Мы работаем над их устранением." },
             { "lang": "default", "text": "We are facing temporary issues with receiving one-time login codes via email. We are working to resolve this." }
           ]
         }
